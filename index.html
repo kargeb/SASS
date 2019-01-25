@@ -1,13 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kurs SASS</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kurs SASS</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+    <div class="app">
+
+        <div class="sidebar">
+
+            <!-- Logo -->
+            <div class="sidebar__section">
+                <div>
+                    <a href="#"><h1>MyApp</h1></a>
+                </div>
+            </div>
+
+            <!-- Użytkownik -->
+            <div class="sidebar__section">
+                <div>
+
+                    <!-- Avatar użytkownika -->
+                    <div>
+                        <img src="https://randomuser.me/api/portraits/women/57.jpg" alt="User">
+                    </div>
+
+                    <!-- Nazwa oaz status użytkownika -->
+                    <div>
+                        <a href="#">Rita Cook</a>
+                        <i>Online</i>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Nawigacja #1 -->
+            <div class="sidebar__section">
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li>
+                            <a href="#"><span>Home</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Users</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Favorite</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Widgets</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Nwigacja #2 -->
+            <div class="sidebar__section">
+                <div>
+                    <h4>Community</h4>
+                    <ul>
+                        <li>
+                            <a href="#"><span>Notifications</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Mail</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Social</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Calendar</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Nawigacja #3 -->
+            <div class="sidebar__section">
+                <div>
+                    <h4>Settings</h4>
+                    <ul>
+                        <li>
+                            <a href="#"><span>Profile</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>General</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="app__page">
+
+            <div class="navbar">
+
+                <!-- Wyszukiwarka -->
+                <div>
+                    <label>
+                        <span>Search</span>
+                    </label>
+                </div>
+
+                <div>
+                    <div class="navbar__section">
+
+                        <!-- Zmieniarka języków -->
+                        <div>
+                            <a href="#"><span>Polski</span></a>
+                        </div>
+
+                    </div>
+                    <div class="navbar__section">
+
+                        <!-- Nazwa oaz status użytkownika -->
+                        <div>
+                            <a href="#">Rita Cook</a>
+                        </div>
+
+                    </div>
+                    <div class="navbar__section">
+
+                        <!-- Przycisk wylogowywania -->
+                        <div>
+                            <a href="#">Sign out</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard">
+                <div>
+                    <h2>Dashboard</h2>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
